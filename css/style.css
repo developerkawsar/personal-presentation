@@ -14,6 +14,7 @@
     --bg-color: #e8631c;
     --header-text: #f5f5f5;
     --normal-text: #ffffff;
+    --paragraph-text: #696969;
 }
 
 /* using css for common all body part of this website */
@@ -23,14 +24,14 @@ body{
 
 /* style start for header from here */
 /* using nav/toolbar/header container for set logo, nav & search icon */
-.container{
+.container-header{
     width: 100%;
     height: 80px;
     background-image: url(../assets/section-one/toolbar/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 80px;
+    padding-right: 80px;
     box-sizing: border-box;
 }
 
@@ -103,3 +104,56 @@ nav ul li a:hover::after{
     cursor: pointer;
 }
 /* end header style for this website */
+
+/* starting top-section */
+/* top-section background image use */
+.top-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/section-one/image/person-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+/* top-section-content css starting for style */
+.top-section-content{
+    width: 30%;
+    margin: 0px 0px 0px 80px;
+    padding: 10px 0px;
+    margin-top: 15.5%;
+}
+
+/* title for top-section */
+.top-section-content h1{
+    font-size: 72px;
+    letter-spacing: 2px;
+    color: var(--header-text);
+    font-weight: 400;
+}
+
+/* title description for top-section */
+.top-section-content p{
+    text-align: justify;
+    color: var(--normal-text);
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+/* link style for btn use */
+.top-section-content a{
+    text-decoration: none;
+    color: var(--normal-text);
+    font-weight: 200;
+    margin: 40px 0px;
+    letter-spacing: 1px;
+    background-color: var(--bg-color);
+    padding: 5px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+/* end top-section */
+
+
