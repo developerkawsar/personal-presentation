@@ -113,8 +113,8 @@ nav ul li a:hover::after{
     background-image: url(../assets/section-one/image/person-image.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
+    position: relative;
+    z-index: 2;
 }
 
 /* top-section-content css starting for style */
@@ -156,4 +156,61 @@ nav ul li a:hover::after{
 }
 /* end top-section */
 
+/* start section-two */
+/* section-shape use */
+.section-shap{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/section-two/shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+}
+
+
+
+/* declare section-two area for my website */
+.section-two{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+/* section-two-content style */
+.section-two-content{
+    position: absolute;
+    margin: 5% 30%;
+    text-align: center;
+}
+
+/* section-two-content title style */
+.section-two-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: var(--normal-text);
+}
+
+/* section-two-content title description style */
+.section-two-content p{
+    color: var(--normal-text);
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+/* section two card area */
+.section-two-card-area{
+    
+    background-color: #696969;
+    position: absolute;
+
+    
+}
+
+/* end section-two */
 
